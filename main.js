@@ -5,3 +5,11 @@ const restaurant = {
   starterMenu: ["Focazzia", "Bruscheta", "Garlic Bread", "Capric Salad"],
   mainMenu: ["Pizza", "Pasta", "Risotto"],
 };
+
+const arr = [2, 3, 4];
+const [a, b, c] = arr;
+console.log(arr);
+
+const [first, second, third, fourth] = restaurant.categories;
+console.log(first, second, third);
+
